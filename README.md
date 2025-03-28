@@ -83,4 +83,4 @@
 | 40    | Train | 0.5369 | 0.9242   | 0.9371    | 0.9455 | 0.9413   | 0.8861      | 0.9664  | 0.9722  |
 |       | Val   | 0.4894 | 0.9307   | 0.9723    | 0.9183 | 0.9445   | 0.9529      | 0.9759  | 0.9797  |
 
-![Training Metrics](Training_metrics)
+![Training Metrics](Training_metrics.png)
