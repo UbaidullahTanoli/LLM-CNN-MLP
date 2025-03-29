@@ -39,7 +39,7 @@ A dropout rate of 0.5 was incorporated in the fusion MLP layer to mitigate overf
 | Optimizer | AdamW |
 | Regulaization | AdamW weight_decay = 0.01 |
 | Loss Function | Cross Entropy |
-| Adaptive Learning Rate | LinearLR (1.0 - 0.1) |
+| Adaptive Learning Rate | LinearLR (1.0 → 0.1) |
 | Learning Rate | 0.001 |
 | Batch Normalization | 512 |
 | Number of Epochs | 40 |
