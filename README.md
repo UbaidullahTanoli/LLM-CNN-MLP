@@ -163,7 +163,7 @@ A dropout rate of 0.5 was incorporated in the fusion MLP layer to mitigate overf
 | PR AUC       | 0.9835 (32) → 0.9828 (40) | 0.7995 (39) → 0.7995 (40) | **0.9869** (24) → 0.9797 (40) | LLM+CNN+MLP (+0.35%)    |
 
 
-The model didn't overfit as the performance metrics kept on improving. This model performs exceptionally well compared to using a textual LLM to read reports or a CNN to study the images, as shown in the table above. The key features of the LLM+CNN+MLP model are as follows:
+The model didn't overfit as the performance metrics kept on improving. This model performs exceptionally well compared to using a textual LLM to read reports or a CNN to study the images, as shown in the table above which compares the best metrics achieved during the training and at the end of training (i.e., at 40th epoch). The key features of the LLM+CNN+MLP model are as follows:
 
 **Notable Features**
 
