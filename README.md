@@ -1,6 +1,6 @@
 # LLM-CNN-MLP
 
-This project is aimed at researching if combining a textual (non-multimodal) LLM (to read the report of a patient) with a CNN (to analyse the X-ray images corresponding to the reports) gives a better result at binary classification of the lung/heart diseases as compared to a CNN alone.
+This project is aimed at researching if combining a textual (non-multimodal) LLM (to read the report of a patient) with a CNN (to analyse the X-ray images corresponding to the reports) gives a better result at binary classification of the lung/heart diseases as compared to a CNN alone. 
 
 The output from the CNN and LLM is converted into a vector embedding that's input into a Multi-Layer-Perceptron, which outputs a binary classification.
 
